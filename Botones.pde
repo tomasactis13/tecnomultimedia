@@ -6,7 +6,7 @@ void mousePressed() {
    estado = "Titulo" ; 
  }
   if (botonPressed(mouseX, mouseY, 415, 150, 170, 40) && estado.equals("Titulo")) { 
- estado = "Personajes"; 
+ estado = "Introduccion"; 
   }
   if (botonPressed(mouseX, mouseY,430,220,134,30 )&& estado.equals("Titulo") && frameCount >1) { 
 estado = "Creditos";     
