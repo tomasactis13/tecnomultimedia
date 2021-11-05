@@ -107,7 +107,7 @@ class Juego {
     if (keyPressed) {
       pantalla = "Juego";
     }
-    if (puntos == 2&& pantalla.equals("Juego")) {
+    if (puntos == 30&& pantalla.equals("Juego")) {
       pantalla = "Ganar";
     }
     if (vidas == 0 && pantalla.equals("Juego")) {
