@@ -1,7 +1,6 @@
 class Lana {
-  float lx, ly, lx2, lx3, lvel, lvel2, lvel3;
+  float lx, ly, lvel;
   int ltam;
-  float cant = 4;
   PImage[] lanaImagen = new PImage[4];
   String nombrelana; 
   Lana(String ID_) {
