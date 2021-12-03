@@ -14,7 +14,7 @@ class Aventura {
     P = new Pantallas();
     J = new Juego();
     I = new Inicio();
-    estado = "Final2";
+    estado = "Titulo";
     portada = loadImage("portada.jpg"); 
     portada.resize(640, 540);
     fuente1 = createFont("CASA TOMADA.ttf", 50);
