@@ -169,7 +169,7 @@ class Pantallas {
   }
   void Bifurcacion2() {
     if (frameCount > 0 && frameCount < 200) {
-      image(foto[23], -200, 0);
+      image(foto[18], -200, 0);
     }
     if (frameCount > 199) {
       A.estado = "Desarrollo2";
