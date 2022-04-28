@@ -8,15 +8,16 @@ void setup () {
   g = new GestorDeInteracion();
   paleta = new Paleta ("imagen.jpg");
   c = new Circulos[cant];
-  for(int i=0;i<cant;i++){
+  for (int i=0; i<cant; i++) {
     c[i]=new Circulos();
   }
+  background(255);
 }
 void draw () {
-    println(g.movGrande);
+  println(g.movGrande);
   g.actualizar();
-g.moverMouse();
-for(int i=0;i<cant;i++){
-c[i].dibujar();
-}
+  g.moverMouse();
+  for (int i=0; i<cant; i++) {
+    c[i].dibujar();
+  }
 }

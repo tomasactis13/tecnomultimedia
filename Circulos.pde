@@ -1,12 +1,14 @@
 
 class Circulos {
-  float x, y, x2, y2, c;
+  float x, y, x2, y2, x3, y3, c;
   float dir, vel;
   Circulos() {
     x=random (width);
     y=random(height); 
     x2=random (width);
     y2=random(height);
+    x3=random (width);
+    y3=random(height);
   }
   void crearGrandes() {
     pushStyle();
@@ -26,12 +28,12 @@ class Circulos {
       ellipse(x, y, t, t);
     } else {
       fill(paleta.darColor());
-      ellipse(x, y, t, t);
+      ellipse(x3, y3, t, t);
       popStyle();
     }
   }
   void dibujar() {
-    
+
     if (g.movGrande) {
       crearGrandes();
     } 
