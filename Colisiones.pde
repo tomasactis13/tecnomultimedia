@@ -217,9 +217,10 @@ void contactStarted( FContact contacto ) {
   }
 
   if (nombre1== "paloma" && nombre2 == "nube2") {
-    Granizo = true;    
+    Granizo = true;  
     mundo.remove(body2);
   }
+
 
 
   if (nombre2== "paloma" && nombre1 == "nube2") {
