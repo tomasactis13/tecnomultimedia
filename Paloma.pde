@@ -1,6 +1,6 @@
 class Paloma {
   float velocidad = 600;
-  float angulo = radians (-80);
+  float angulo = radians (-78);
   Boolean spriteizquierda, spritederecha;
   Boolean volarPresionado;
   float vx, vy, x;
@@ -20,7 +20,7 @@ class Paloma {
     volar2 = loadImage("pajaro2.png");
     volar2.resize(120, 120);
     Paloma = new FBox(50, 50);
-    Paloma.setPosition(50, 650);
+    Paloma.setPosition(65, 640);
     //Paloma.attachImage(pajaro[0]);
     //Paloma.setVelocity(vx, vy);
     Paloma.setRotatable(false);
